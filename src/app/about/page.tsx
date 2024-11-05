@@ -1,5 +1,5 @@
 "use client";
-import image from "next/image";
+import Image from "next/image";
 export default function About(){
     return(
         <section className="section">
@@ -7,13 +7,13 @@ export default function About(){
         <div className="about">
         <div className="">
             <div>
-            <image
+            <Image
                  src="/about.jpg"
                 height={400}
                 width={300}
                 alt="about-image"
                 className="about-image">
-                    </image>
+                    </Image>
                     </div>
                 
                 </div>
